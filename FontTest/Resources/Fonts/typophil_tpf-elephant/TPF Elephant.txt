@@ -1,0 +1,17 @@
+typophil font library
+package Elephant ver.1.0
+-------------------------------
+
+author:
+christoph scheiblhofer
+
+fonts:
+TPF Elephant
+
+usage:
+free for private use
+
+-------------------------------
+1999 (c) christoph scheiblhofer
+email: typophil@virtual-lands.org
+http://typophil.virtual-lands.org

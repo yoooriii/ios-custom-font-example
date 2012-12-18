@@ -1,0 +1,10 @@
+//TIMES_SQ.TTF
+Times Square
+dotty.ttf
+REVOLUTION.ttf
+//erbos_draco_1st_nbp.ttf
+Erbos Draco 1st NBP
+//erbos_draco_1st_open_nbp.ttf
+Erbos Draco 1st Open NBP
+TPF Display Symbol.ttf
+TPF Display.ttf

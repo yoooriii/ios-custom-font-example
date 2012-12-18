@@ -1,0 +1,18 @@
+typophil font library
+package U13 ver.1.0
+-------------------------------
+
+author:
+christoph scheiblhofer
+
+fonts:
+TPF U13-Regular
+
+usage:
+free for private use
+if you are interested in using it commercial, or if you want to distribute it, please contact me for price informations!
+
+-------------------------------
+1999 (c) christoph scheiblhofer
+email: typophil@virtual-lands.org
+http://typophil.virtual-lands.org

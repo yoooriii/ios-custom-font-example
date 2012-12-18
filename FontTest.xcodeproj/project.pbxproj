@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462EA5EC16805D6F00113EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462EA5EB16805D6F00113EC4 /* UIKit.framework */; };
+		462EA5EE16805D6F00113EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462EA5ED16805D6F00113EC4 /* Foundation.framework */; };
+		462EA5F016805D6F00113EC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462EA5EF16805D6F00113EC4 /* CoreGraphics.framework */; };
+		46E31D291680804000F16BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E31D1F1680804000F16BB5 /* main.m */; };
+		46E31D2A1680804000F16BB5 /* ZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E31D211680804000F16BB5 /* ZAppDelegate.m */; };
+		46E31D2B1680804000F16BB5 /* ZFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E31D241680804000F16BB5 /* ZFontCell.m */; };
+		46E31D2C1680804000F16BB5 /* ZFontCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D251680804000F16BB5 /* ZFontCell.xib */; };
+		46E31D2D1680804000F16BB5 /* ZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E31D271680804000F16BB5 /* ZViewController.m */; };
+		46E31D2E1680804000F16BB5 /* ZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D281680804000F16BB5 /* ZViewController.xib */; };
+		46E31D621680804800F16BB5 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D331680804800F16BB5 /* ReadMe.txt */; };
+		46E31D631680804800F16BB5 /* TIMES_SQ.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D341680804800F16BB5 /* TIMES_SQ.TTF */; };
+		46E31D641680804800F16BB5 /* TSSample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D351680804800F16BB5 /* TSSample.gif */; };
+		46E31D661680804800F16BB5 /* dotty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D381680804800F16BB5 /* dotty.ttf */; };
+		46E31D671680804800F16BB5 /* logan_kruger read me.html in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D391680804800F16BB5 /* logan_kruger read me.html */; };
+		46E31D681680804800F16BB5 /* logan_kruger read me.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D3A1680804800F16BB5 /* logan_kruger read me.rtf */; };
+		46E31D6A1680804800F16BB5 /* REVOLUTION.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D3D1680804800F16BB5 /* REVOLUTION.png */; };
+		46E31D6B1680804800F16BB5 /* REVOLUTION.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D3E1680804800F16BB5 /* REVOLUTION.ttf */; };
+		46E31D6D1680804800F16BB5 /* erbos_draco_1st_nbp.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D411680804800F16BB5 /* erbos_draco_1st_nbp.ttf */; };
+		46E31D6E1680804800F16BB5 /* erbos_draco_1st_open_nbp.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D421680804800F16BB5 /* erbos_draco_1st_open_nbp.ttf */; };
+		46E31D6F1680804800F16BB5 /* readme_ed1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D431680804800F16BB5 /* readme_ed1.txt */; };
+		46E31D711680804800F16BB5 /* TPF Display Symbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D461680804800F16BB5 /* TPF Display Symbol.ttf */; };
+		46E31D721680804800F16BB5 /* TPF Display.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D471680804800F16BB5 /* TPF Display.ttf */; };
+		46E31D731680804800F16BB5 /* TPF Display.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D481680804800F16BB5 /* TPF Display.txt */; };
+		46E31D751680804800F16BB5 /* TPF Elephant.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D4B1680804800F16BB5 /* TPF Elephant.ttf */; };
+		46E31D761680804800F16BB5 /* TPF Elephant.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D4C1680804800F16BB5 /* TPF Elephant.txt */; };
+		46E31D781680804800F16BB5 /* TPF Praktika.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D4F1680804800F16BB5 /* TPF Praktika.ttf */; };
+		46E31D791680804800F16BB5 /* TPF Praktika.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D501680804800F16BB5 /* TPF Praktika.txt */; };
+		46E31D7B1680804800F16BB5 /* TPF Quackery.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D531680804800F16BB5 /* TPF Quackery.ttf */; };
+		46E31D7C1680804800F16BB5 /* TPF Quackery.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D541680804800F16BB5 /* TPF Quackery.txt */; };
+		46E31D7E1680804800F16BB5 /* TPF U13-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D571680804800F16BB5 /* TPF U13-Regular.ttf */; };
+		46E31D7F1680804800F16BB5 /* TPF U13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D581680804800F16BB5 /* TPF U13.txt */; };
+		46E31D811680804800F16BB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D5B1680804800F16BB5 /* Default-568h@2x.png */; };
+		46E31D821680804800F16BB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D5C1680804800F16BB5 /* Default.png */; };
+		46E31D831680804800F16BB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D5D1680804800F16BB5 /* Default@2x.png */; };
+		46E31D841680804800F16BB5 /* FontsList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D5F1680804800F16BB5 /* FontsList.txt */; };
+		46E31D851680804800F16BB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46E31D601680804800F16BB5 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462EA5E716805D6F00113EC4 /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462EA5EB16805D6F00113EC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		462EA5ED16805D6F00113EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		462EA5EF16805D6F00113EC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		462EA5F316805D6F00113EC4 /* FontTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontTest-Info.plist"; sourceTree = "<group>"; };
+		462EA5F916805D6F00113EC4 /* FontTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontTest-Prefix.pch"; sourceTree = "<group>"; };
+		46E31D1F1680804000F16BB5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46E31D201680804000F16BB5 /* ZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAppDelegate.h; sourceTree = "<group>"; };
+		46E31D211680804000F16BB5 /* ZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAppDelegate.m; sourceTree = "<group>"; };
+		46E31D231680804000F16BB5 /* ZFontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFontCell.h; sourceTree = "<group>"; };
+		46E31D241680804000F16BB5 /* ZFontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFontCell.m; sourceTree = "<group>"; };
+		46E31D251680804000F16BB5 /* ZFontCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFontCell.xib; sourceTree = "<group>"; };
+		46E31D261680804000F16BB5 /* ZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZViewController.h; sourceTree = "<group>"; };
+		46E31D271680804000F16BB5 /* ZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZViewController.m; sourceTree = "<group>"; };
+		46E31D281680804000F16BB5 /* ZViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZViewController.xib; sourceTree = "<group>"; };
+		46E31D331680804800F16BB5 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		46E31D341680804800F16BB5 /* TIMES_SQ.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = TIMES_SQ.TTF; sourceTree = "<group>"; };
+		46E31D351680804800F16BB5 /* TSSample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TSSample.gif; sourceTree = "<group>"; };
+		46E31D381680804800F16BB5 /* dotty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dotty.ttf; sourceTree = "<group>"; };
+		46E31D391680804800F16BB5 /* logan_kruger read me.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "logan_kruger read me.html"; sourceTree = "<group>"; };
+		46E31D3A1680804800F16BB5 /* logan_kruger read me.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "logan_kruger read me.rtf"; sourceTree = "<group>"; };
+		46E31D3D1680804800F16BB5 /* REVOLUTION.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = REVOLUTION.png; sourceTree = "<group>"; };
+		46E31D3E1680804800F16BB5 /* REVOLUTION.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = REVOLUTION.ttf; sourceTree = "<group>"; };
+		46E31D411680804800F16BB5 /* erbos_draco_1st_nbp.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = erbos_draco_1st_nbp.ttf; sourceTree = "<group>"; };
+		46E31D421680804800F16BB5 /* erbos_draco_1st_open_nbp.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = erbos_draco_1st_open_nbp.ttf; sourceTree = "<group>"; };
+		46E31D431680804800F16BB5 /* readme_ed1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme_ed1.txt; sourceTree = "<group>"; };
+		46E31D461680804800F16BB5 /* TPF Display Symbol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TPF Display Symbol.ttf"; sourceTree = "<group>"; };
+		46E31D471680804800F16BB5 /* TPF Display.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TPF Display.ttf"; sourceTree = "<group>"; };
+		46E31D481680804800F16BB5 /* TPF Display.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TPF Display.txt"; sourceTree = "<group>"; };
+		46E31D4B1680804800F16BB5 /* TPF Elephant.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TPF Elephant.ttf"; sourceTree = "<group>"; };
+		46E31D4C1680804800F16BB5 /* TPF Elephant.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TPF Elephant.txt"; sourceTree = "<group>"; };
+		46E31D4F1680804800F16BB5 /* TPF Praktika.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TPF Praktika.ttf"; sourceTree = "<group>"; };
+		46E31D501680804800F16BB5 /* TPF Praktika.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TPF Praktika.txt"; sourceTree = "<group>"; };
+		46E31D531680804800F16BB5 /* TPF Quackery.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TPF Quackery.ttf"; sourceTree = "<group>"; };
+		46E31D541680804800F16BB5 /* TPF Quackery.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TPF Quackery.txt"; sourceTree = "<group>"; };
+		46E31D571680804800F16BB5 /* TPF U13-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TPF U13-Regular.ttf"; sourceTree = "<group>"; };
+		46E31D581680804800F16BB5 /* TPF U13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "TPF U13.txt"; sourceTree = "<group>"; };
+		46E31D5B1680804800F16BB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		46E31D5C1680804800F16BB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		46E31D5D1680804800F16BB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		46E31D5F1680804800F16BB5 /* FontsList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FontsList.txt; sourceTree = "<group>"; };
+		46E31D601680804800F16BB5 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462EA5E416805D6F00113EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462EA5EC16805D6F00113EC4 /* UIKit.framework in Frameworks */,
+				462EA5EE16805D6F00113EC4 /* Foundation.framework in Frameworks */,
+				462EA5F016805D6F00113EC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462EA5DC16805D6F00113EC4 = {
+			isa = PBXGroup;
+			children = (
+				462EA5F116805D6F00113EC4 /* FontTest */,
+				462EA5EA16805D6F00113EC4 /* Frameworks */,
+				462EA5E816805D6F00113EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462EA5E816805D6F00113EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462EA5E716805D6F00113EC4 /* FontTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462EA5EA16805D6F00113EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462EA5EB16805D6F00113EC4 /* UIKit.framework */,
+				462EA5ED16805D6F00113EC4 /* Foundation.framework */,
+				462EA5EF16805D6F00113EC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		462EA5F116805D6F00113EC4 /* FontTest */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D2F1680804800F16BB5 /* Resources */,
+				46E31D1D1680804000F16BB5 /* Code */,
+				462EA5F216805D6F00113EC4 /* Supporting Files */,
+			);
+			path = FontTest;
+			sourceTree = "<group>";
+		};
+		462EA5F216805D6F00113EC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462EA5F316805D6F00113EC4 /* FontTest-Info.plist */,
+				462EA5F916805D6F00113EC4 /* FontTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46E31D1D1680804000F16BB5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D1E1680804000F16BB5 /* App */,
+				46E31D221680804000F16BB5 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		46E31D1E1680804000F16BB5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D1F1680804000F16BB5 /* main.m */,
+				46E31D201680804000F16BB5 /* ZAppDelegate.h */,
+				46E31D211680804000F16BB5 /* ZAppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		46E31D221680804000F16BB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D231680804000F16BB5 /* ZFontCell.h */,
+				46E31D241680804000F16BB5 /* ZFontCell.m */,
+				46E31D251680804000F16BB5 /* ZFontCell.xib */,
+				46E31D261680804000F16BB5 /* ZViewController.h */,
+				46E31D271680804000F16BB5 /* ZViewController.m */,
+				46E31D281680804000F16BB5 /* ZViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		46E31D2F1680804800F16BB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D301680804800F16BB5 /* Fonts */,
+				46E31D5A1680804800F16BB5 /* Images */,
+				46E31D5E1680804800F16BB5 /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		46E31D301680804800F16BB5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D321680804800F16BB5 /* charles-minow_times-square */,
+				46E31D371680804800F16BB5 /* kevin-richey_dotty */,
+				46E31D3C1680804800F16BB5 /* saji-johnny-kundukulam_revolution */,
+				46E31D401680804800F16BB5 /* total-fontgeek_erbos-draco-monospaced-nbp */,
+				46E31D451680804800F16BB5 /* typophil_tpf-display */,
+				46E31D4A1680804800F16BB5 /* typophil_tpf-elephant */,
+				46E31D4E1680804800F16BB5 /* typophil_tpf-praktika */,
+				46E31D521680804800F16BB5 /* typophil_tpf-quackery */,
+				46E31D561680804800F16BB5 /* typophil_tpf-u13 */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		46E31D321680804800F16BB5 /* charles-minow_times-square */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D331680804800F16BB5 /* ReadMe.txt */,
+				46E31D341680804800F16BB5 /* TIMES_SQ.TTF */,
+				46E31D351680804800F16BB5 /* TSSample.gif */,
+			);
+			path = "charles-minow_times-square";
+			sourceTree = "<group>";
+		};
+		46E31D371680804800F16BB5 /* kevin-richey_dotty */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D381680804800F16BB5 /* dotty.ttf */,
+				46E31D391680804800F16BB5 /* logan_kruger read me.html */,
+				46E31D3A1680804800F16BB5 /* logan_kruger read me.rtf */,
+			);
+			path = "kevin-richey_dotty";
+			sourceTree = "<group>";
+		};
+		46E31D3C1680804800F16BB5 /* saji-johnny-kundukulam_revolution */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D3D1680804800F16BB5 /* REVOLUTION.png */,
+				46E31D3E1680804800F16BB5 /* REVOLUTION.ttf */,
+			);
+			path = "saji-johnny-kundukulam_revolution";
+			sourceTree = "<group>";
+		};
+		46E31D401680804800F16BB5 /* total-fontgeek_erbos-draco-monospaced-nbp */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D411680804800F16BB5 /* erbos_draco_1st_nbp.ttf */,
+				46E31D421680804800F16BB5 /* erbos_draco_1st_open_nbp.ttf */,
+				46E31D431680804800F16BB5 /* readme_ed1.txt */,
+			);
+			path = "total-fontgeek_erbos-draco-monospaced-nbp";
+			sourceTree = "<group>";
+		};
+		46E31D451680804800F16BB5 /* typophil_tpf-display */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D461680804800F16BB5 /* TPF Display Symbol.ttf */,
+				46E31D471680804800F16BB5 /* TPF Display.ttf */,
+				46E31D481680804800F16BB5 /* TPF Display.txt */,
+			);
+			path = "typophil_tpf-display";
+			sourceTree = "<group>";
+		};
+		46E31D4A1680804800F16BB5 /* typophil_tpf-elephant */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D4B1680804800F16BB5 /* TPF Elephant.ttf */,
+				46E31D4C1680804800F16BB5 /* TPF Elephant.txt */,
+			);
+			path = "typophil_tpf-elephant";
+			sourceTree = "<group>";
+		};
+		46E31D4E1680804800F16BB5 /* typophil_tpf-praktika */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D4F1680804800F16BB5 /* TPF Praktika.ttf */,
+				46E31D501680804800F16BB5 /* TPF Praktika.txt */,
+			);
+			path = "typophil_tpf-praktika";
+			sourceTree = "<group>";
+		};
+		46E31D521680804800F16BB5 /* typophil_tpf-quackery */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D531680804800F16BB5 /* TPF Quackery.ttf */,
+				46E31D541680804800F16BB5 /* TPF Quackery.txt */,
+			);
+			path = "typophil_tpf-quackery";
+			sourceTree = "<group>";
+		};
+		46E31D561680804800F16BB5 /* typophil_tpf-u13 */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D571680804800F16BB5 /* TPF U13-Regular.ttf */,
+				46E31D581680804800F16BB5 /* TPF U13.txt */,
+			);
+			path = "typophil_tpf-u13";
+			sourceTree = "<group>";
+		};
+		46E31D5A1680804800F16BB5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D5B1680804800F16BB5 /* Default-568h@2x.png */,
+				46E31D5C1680804800F16BB5 /* Default.png */,
+				46E31D5D1680804800F16BB5 /* Default@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		46E31D5E1680804800F16BB5 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				46E31D5F1680804800F16BB5 /* FontsList.txt */,
+				46E31D601680804800F16BB5 /* InfoPlist.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462EA5E616805D6F00113EC4 /* FontTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462EA60B16805D6F00113EC4 /* Build configuration list for PBXNativeTarget "FontTest" */;
+			buildPhases = (
+				462EA5E316805D6F00113EC4 /* Sources */,
+				462EA5E416805D6F00113EC4 /* Frameworks */,
+				462EA5E516805D6F00113EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontTest;
+			productName = FontTest;
+			productReference = 462EA5E716805D6F00113EC4 /* FontTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462EA5DE16805D6F00113EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Z;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "PE-Leonid.Lo";
+			};
+			buildConfigurationList = 462EA5E116805D6F00113EC4 /* Build configuration list for PBXProject "FontTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 462EA5DC16805D6F00113EC4;
+			productRefGroup = 462EA5E816805D6F00113EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462EA5E616805D6F00113EC4 /* FontTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462EA5E516805D6F00113EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E31D2C1680804000F16BB5 /* ZFontCell.xib in Resources */,
+				46E31D2E1680804000F16BB5 /* ZViewController.xib in Resources */,
+				46E31D621680804800F16BB5 /* ReadMe.txt in Resources */,
+				46E31D631680804800F16BB5 /* TIMES_SQ.TTF in Resources */,
+				46E31D641680804800F16BB5 /* TSSample.gif in Resources */,
+				46E31D661680804800F16BB5 /* dotty.ttf in Resources */,
+				46E31D671680804800F16BB5 /* logan_kruger read me.html in Resources */,
+				46E31D681680804800F16BB5 /* logan_kruger read me.rtf in Resources */,
+				46E31D6A1680804800F16BB5 /* REVOLUTION.png in Resources */,
+				46E31D6B1680804800F16BB5 /* REVOLUTION.ttf in Resources */,
+				46E31D6D1680804800F16BB5 /* erbos_draco_1st_nbp.ttf in Resources */,
+				46E31D6E1680804800F16BB5 /* erbos_draco_1st_open_nbp.ttf in Resources */,
+				46E31D6F1680804800F16BB5 /* readme_ed1.txt in Resources */,
+				46E31D711680804800F16BB5 /* TPF Display Symbol.ttf in Resources */,
+				46E31D721680804800F16BB5 /* TPF Display.ttf in Resources */,
+				46E31D731680804800F16BB5 /* TPF Display.txt in Resources */,
+				46E31D751680804800F16BB5 /* TPF Elephant.ttf in Resources */,
+				46E31D761680804800F16BB5 /* TPF Elephant.txt in Resources */,
+				46E31D781680804800F16BB5 /* TPF Praktika.ttf in Resources */,
+				46E31D791680804800F16BB5 /* TPF Praktika.txt in Resources */,
+				46E31D7B1680804800F16BB5 /* TPF Quackery.ttf in Resources */,
+				46E31D7C1680804800F16BB5 /* TPF Quackery.txt in Resources */,
+				46E31D7E1680804800F16BB5 /* TPF U13-Regular.ttf in Resources */,
+				46E31D7F1680804800F16BB5 /* TPF U13.txt in Resources */,
+				46E31D811680804800F16BB5 /* Default-568h@2x.png in Resources */,
+				46E31D821680804800F16BB5 /* Default.png in Resources */,
+				46E31D831680804800F16BB5 /* Default@2x.png in Resources */,
+				46E31D841680804800F16BB5 /* FontsList.txt in Resources */,
+				46E31D851680804800F16BB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462EA5E316805D6F00113EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E31D291680804000F16BB5 /* main.m in Sources */,
+				46E31D2A1680804000F16BB5 /* ZAppDelegate.m in Sources */,
+				46E31D2B1680804000F16BB5 /* ZFontCell.m in Sources */,
+				46E31D2D1680804000F16BB5 /* ZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		462EA60916805D6F00113EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		462EA60A16805D6F00113EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462EA60C16805D6F00113EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontTest/FontTest-Prefix.pch";
+				INFOPLIST_FILE = "FontTest/FontTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		462EA60D16805D6F00113EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontTest/FontTest-Prefix.pch";
+				INFOPLIST_FILE = "FontTest/FontTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462EA5E116805D6F00113EC4 /* Build configuration list for PBXProject "FontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462EA60916805D6F00113EC4 /* Debug */,
+				462EA60A16805D6F00113EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462EA60B16805D6F00113EC4 /* Build configuration list for PBXNativeTarget "FontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462EA60C16805D6F00113EC4 /* Debug */,
+				462EA60D16805D6F00113EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462EA5DE16805D6F00113EC4 /* Project object */;
+}
